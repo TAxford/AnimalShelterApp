@@ -5,9 +5,9 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="ef40e2f1dcae446d944fb680fc1ab35b" Name="Diagram1">
-        <EntityTypeShape EntityType="AnimalShelterModel.Adoption" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
-        <EntityTypeShape EntityType="AnimalShelterModel.Family" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
-        <EntityTypeShape EntityType="AnimalShelterModel.Pet" Width="1.5" PointX="0.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AnimalShelterModel.Adoption" Width="1.5" PointX="4.25" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AnimalShelterModel.Family" Width="1.5" PointX="7.875" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AnimalShelterModel.Pet" Width="1.5" PointX="0.5" PointY="0.5" IsExpanded="true" />
         <EntityTypeShape EntityType="AnimalShelterModel.sysdiagram" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
         <AssociationConnector Association="AnimalShelterModel.FK_Adoption_Family" ManuallyRouted="false" />
         <AssociationConnector Association="AnimalShelterModel.FK_Adoption_Pet" ManuallyRouted="false" />

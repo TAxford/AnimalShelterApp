@@ -150,15 +150,32 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Adoption.cs">
+      <DependentUpon>AnimalShelterModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\AnimalShelterModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>AnimalShelterModel.Context.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\AnimalShelterModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AnimalShelterModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\AnimalShelterModel.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>AnimalShelterModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Family.cs">
+      <DependentUpon>AnimalShelterModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Pet.cs">
+      <DependentUpon>AnimalShelterModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\sysdiagram.cs">
+      <DependentUpon>AnimalShelterModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -185,6 +202,12 @@
     <Content Include="Models\AnimalShelterModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>AnimalShelterModel.Context.cs</LastGenOutput>
+      <DependentUpon>AnimalShelterModel.edmx</DependentUpon>
+    </Content>
+    <Content Include="Models\AnimalShelterModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>AnimalShelterModel.edmx</DependentUpon>
+      <LastGenOutput>AnimalShelterModel.cs</LastGenOutput>
     </Content>
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -192,9 +215,9 @@
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>AnimalShelterModel.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <None Include="Models\AnimalShelterModel.edmx.diagram">
+    <Content Include="Models\AnimalShelterModel.edmx.diagram">
       <DependentUpon>AnimalShelterModel.edmx</DependentUpon>
-    </None>
+    </Content>
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
