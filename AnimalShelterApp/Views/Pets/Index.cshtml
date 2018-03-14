@@ -4,12 +4,12 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<h2>Available Pets</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Add New Pet", "Create")
 </p>
-<table class="table">
+<table class="table-bordered table-hover table">
     <tr>
         <th>
             @Html.DisplayNameFor(model => model.Type)
@@ -20,7 +20,7 @@
         <th>
             @Html.DisplayNameFor(model => model.Age)
         </th>
-        <th>
+        <th>            
             @Html.DisplayNameFor(model => model.PetName)
         </th>
         <th>
@@ -50,7 +50,7 @@
             @Html.DisplayFor(modelItem => item.Gender)
         </td>
         <td>
-           <img src="@Html.DisplayFor(modelItem => item.Photo)" />
+           <img class="PetImages" src="@Html.DisplayFor(modelItem => item.Photo)" />
         </td>
         <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.PetID }) |

@@ -1,12 +1,16 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background-image: url('images/Leaves.jpeg');
 }
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
+    color:black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -21,4 +25,41 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+
+img.PetImages{
+    height:100px;
+    width:100px;
+
+}
+
+img.PetImages:hover {
+    height: 500px;
+    width: 500px;
+}
+
+h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black;
+}
+
+a{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black;        
+}
+
+a:hover {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+    background-color:black;
+}
+
+td {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
 }

@@ -191,6 +191,7 @@
     <Content Include="Content\images\Thor.jpg" />
     <Content Include="Content\images\Tiny.jpg" />
     <Content Include="Content\images\Titan.jpg" />
+    <Content Include="Content\images\Leaves.jpeg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
