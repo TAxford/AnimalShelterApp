@@ -146,7 +146,10 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AdoptionsController.cs" />
+    <Compile Include="Controllers\FamiliesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\PetsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -247,6 +250,21 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Pets\Create.cshtml" />
+    <Content Include="Views\Pets\Delete.cshtml" />
+    <Content Include="Views\Pets\Details.cshtml" />
+    <Content Include="Views\Pets\Edit.cshtml" />
+    <Content Include="Views\Pets\Index.cshtml" />
+    <Content Include="Views\Families\Create.cshtml" />
+    <Content Include="Views\Families\Delete.cshtml" />
+    <Content Include="Views\Families\Details.cshtml" />
+    <Content Include="Views\Families\Edit.cshtml" />
+    <Content Include="Views\Families\Index.cshtml" />
+    <Content Include="Views\Adoptions\Create.cshtml" />
+    <Content Include="Views\Adoptions\Delete.cshtml" />
+    <Content Include="Views\Adoptions\Details.cshtml" />
+    <Content Include="Views\Adoptions\Edit.cshtml" />
+    <Content Include="Views\Adoptions\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
